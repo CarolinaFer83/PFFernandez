@@ -1,0 +1,36 @@
+header {
+    height: 15%;
+    background-color: $verde;
+ 
+
+    #logo {
+        color:white;
+        font-size: 2rem;    
+        margin-left: 4%;
+    } 
+
+    nav {
+        ul {
+            float: right;
+            list-style-type: none;
+            justify-content: end;
+            li {
+                display: inline-block;
+                border: 2px solid ;
+                padding: 5px;
+                border-radius: 5px;
+                background-color:#000000;
+                flex-wrap: wrap;
+                align-items: center;
+                align-content: center;
+            }
+        }
+    }
+}
+main{
+    height:70vh;
+    width: 100%;
+}
+
+
+

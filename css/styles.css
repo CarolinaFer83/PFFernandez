@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 15%;
+  background-color: #285d44;
+}
+header #logo {
+
+  font-size: 2rem;
+  margin-left: 4%;
+}
+header nav ul {
+  float: right;
+  list-style-type: none;
+  justify-content: end;
+}
+header nav ul li {
+  display: inline-block;
+  border: 2px solid;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #000000;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
+
+main {
+  height: 70vh;
+  width: 100%;
+}
+
+#productos > div {
+  transition: transform 2s;
+}
+#productos > div:hover {
+  transform: scale(1.2);
+}
+
+ main {
+  height: 60%;
+}
+main #ofertas {
+  width: 1200px;
+  height: 350px;
+  background-color: #FFFFFF;
+  margin-left: 350px;
+  background-image: url("../assets/images/img-central-tejidos.png");
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  border: 2px solid black;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main .texto-contenedor {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+main img {
+  max-width: 100%;
+  height: auto;
+}
+main img .producto {
+  width: 280px;
+  height: 250px;
+  display: inline-block;
+  text-align: center;
+  margin: 10px 5px 5px 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+main img #pago {
+  width: 1200px;
+  text-align: justify;
+  margin-left: 350px;
+  border: 1px solid black;
+  border-radius: 12px;
+  border-width: 2px;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #F9E8FA;
+}
+
+main main {
+  height: 60%;
+}
+main a {
+  text-decoration: none;
+  color: white;
+}
+main #ofertas {
+  width: 1200px;
+  height: 350px;
+  background-color: #FFFFFF;
+  margin-left: 350px;
+  background-image: url("../assets/images/img-central-tejidos.png");
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  border: 2px solid black;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main .texto-contenedor {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+main img {
+  max-width: 100%;
+  height: auto;
+}
+main img #productos {
+  width: 1200px;
+  height: 350px;
+  background-color: #A6637C;
+  margin-left: 350px;
+  border-radius: 12px;
+  border-width: 2px;
+}
+main img .producto {
+  width: 280px;
+  height: 250px;
+  display: inline-block;
+  text-align: center;
+  margin: 10px 5px 5px 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+main img #pago {
+  width: 1200px;
+  text-align: justify;
+  margin-left: 350px;
+  border: 1px solid black;
+  border-radius: 12px;
+  border-width: 2px;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #F9E8FA;
+}
+
+.logo {
+  font-size: 2rem;
+  margin-left: 4%;
+}
+
+nav ul {
+  display: inline inline-block;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: end;
+}
+
+nav ul li {
+  display: inline inline-block;
+  border: 2px solid;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #000000;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px;
+    padding: 10px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+/* Estilos para pantallas medianas */
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px;
+    padding: 10px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+/* Estilos para pantallas medianas */
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px;
+    padding: 10px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

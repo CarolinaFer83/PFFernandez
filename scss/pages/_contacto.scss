@@ -1,0 +1,29 @@
+ .logo {
+        font-size: 2rem;
+        margin-left: 4%;
+      }
+    nav ul {
+        display: inline inline-block;
+        flex-wrap:wrap;
+        list-style-type: none;
+        justify-content: end;
+    }
+    nav ul li {
+        display: inline inline-block;
+        border: 2px solid;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: #000000;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+       
+}@media (min-width: 1200px) {
+  }
+  
+@media (max-width: 768px) {
+    .container {
+      max-width: 720px;
+      padding: 10px;
+    }
+}
